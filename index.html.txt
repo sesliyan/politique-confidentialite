@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SES Games - Studio de Développement de Jeux Indépendants</title>
+    
+    <style>
+        /* Styles CSS pour une présentation propre et moderne */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px 60px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 90%;
+        }
+
+        header h1 {
+            color: #007bff; /* Couleur d'accent bleu */
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        header p {
+            color: #666;
+            font-size: 1.1em;
+            margin-top: 0;
+        }
+
+        .links a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .links a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>SES Games</h1>
+            <p>Studio de Développement de Jeux Indépendants</p>
+        </header>
+
+        <section class="content">
+            <h2>Bienvenue</h2>
+            <p>Nous sommes SES Games, un studio passionné dédié à la création d'expériences de jeu innovantes et divertissantes sur mobile. Suivez nos liens ci-dessous pour en savoir plus sur nos applications.</p>
+        </section>
+
+        <section class="links">
+            <h2>Liens Utiles</h2>
+            <p>
+                <a href="https://play.google.com/store/apps/developer?id=SES+Games" target="_blank">Nos Jeux sur Google Play</a>
+                <a href="./privacy.html">Règles de Confidentialité</a>
+                <a href="mailto:contact@sesgames.com">Contactez-nous</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 SES Games. Tous droits réservés.
+    </footer>
+
+</body>
+</html>
